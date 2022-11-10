@@ -1,0 +1,28 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+	background-color: #0d0d0d;
+}
+
+.header {
+	width: 319px;
+    margin: 20px auto;
+}
+
+#tienda {
+	  color: white;
+    border-radius: 112px;
+    padding: 10px 32px;
+    margin: 25px auto;
+    position: relative;
+    transition: all .4s cubic-bezier(0, .7, .4, 1);
+    background: #ff3344;
+    text-align: center;
+    width: 70px;
+    font-size: 110%;
+font-family:Lucida Grande, Helvetica, Arial, sans-serif;
+}
